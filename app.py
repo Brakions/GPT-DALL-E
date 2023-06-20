@@ -1,9 +1,9 @@
 import streamlit as st
 import openai
 import os
-from Configuracion import secret_key
+#from Configuracion import secret_key
 
-openai.api_key  = (secret_key)
+openai.api_key  = st.secrets(secret_key)
 
 #DALL-E 
 def get_dalle(prompt):
