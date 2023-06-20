@@ -63,7 +63,7 @@ def sidebar_bg(side_bg):
       """,
       unsafe_allow_html=True,
       )
-side_bg = 'imags\8e7f7da679e6aca5cdf9e84b930c531f_AdobeExpress.gif'
+side_bg = 'imags/8e7f7da679e6aca5cdf9e84b930c531f_AdobeExpress.gif'
 sidebar_bg(side_bg)
    
 
