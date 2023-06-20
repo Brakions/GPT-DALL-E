@@ -1,2 +1,2 @@
-openai             0.27.7
-colorama           0.4.6
+openai==0.27.8
+colorama==0.4.6
