@@ -2,7 +2,10 @@ import streamlit as st
 import openai
 import os
 
-
+headers= {
+    "authorization: st.secrets["secret_key"],
+    "content-type":"application/json"
+}
 openai.api_key  = secret_key
 #DALL-E 
 def get_dalle(prompt):
